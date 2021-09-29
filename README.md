@@ -75,7 +75,7 @@ WHEN : an eventListener is added to all the clear buttons to clear the saved tex
 ------
 Deployed application should look like the below given image.<br>
 ------
-<img src = "./Day-Scheduler-Demo/Day-Scheduler-Screenshot" alt= "DaySchedular-Demo-Screenshot">
+<img src = "Day-Scheduler-Demo/Day-Scheduler-Screenshot" alt= "DaySchedular-Demo-Screenshot">
 ------
 Deployed application screenshot<br>
 ------
