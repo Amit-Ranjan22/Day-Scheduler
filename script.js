@@ -208,3 +208,22 @@ clearButton8.addEventListener("click", function(){
     text8.textContent = "";
     localStorage.setItem("textinput8", text8.textContent);
 });
+
+//using for-loop to assign different color for past, present & future timestamp
+let rowsArr = $(".eachRow");
+for (let z = 0; z < rowsArr.length; z++){
+    let rowsEl = parseInt(rowsArr[z].id);
+    let currentHour = parseInt(moment().format("H"));
+    if (rowsEl < currentHour){
+        setColor(rowsArr[z], "#ccc5b9");
+    } else if (rowsEl > currentHour){
+        setColor(rowsArr[z], "#4f772d");
+    } else {
+         setColor(rowsArr[z], "#b7094c");
+    }
+};
+
+//writing setColor function
+function setColor(element, color) {
+  element.style.backgroundColor = color;
+};
