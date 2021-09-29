@@ -81,3 +81,13 @@ Deployed application should look like the below given image.<br>
 Deployed application screenshot<br>
 ------
 <img src = "Deployed-App-Screenshot/Day-Scheduler-DeployedApp-Image.png" alt= "DaySchedular-DeployedApp-Screenshot">
+
+*GitHub URL to the repository*
+------
+https://github.com/Amit-Ranjan22/Day-Scheduler.git
+------
+
+*URL to the deployed application*
+------
+https://amit-ranjan22.github.io/Day-Scheduler/
+------
