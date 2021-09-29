@@ -147,3 +147,64 @@ clearButton5.addEventListener("click", function(){
     text5.textContent = "";
     localStorage.setItem("textinput5", text5.textContent);
 });
+
+//setting local storage for 6th row of table
+if(storageInput6){
+    text6.textContent = storedInput6;
+}
+
+storageInput6.addEventListener("input", function(letter){
+    text6.textContent = letter.target.value;
+});
+
+let saveToLocalStorage6 = function(){
+    localStorage.setItem("textinput6", text6.textContent)
+}
+
+button6.addEventListener("click", saveToLocalStorage6);
+
+clearButton6.addEventListener("click", function(){
+    text6.textContent = "";
+    localStorage.setItem("textinput6", text6.textContent);
+});
+
+//setting local storage for 7th row of table
+if(storageInput7){
+    text7.textContent = storedInput7;
+}
+
+storageInput7.addEventListener("input", function(letter){
+    text7.textContent = letter.target.value;
+});
+
+let saveToLocalStorage7 = function(){
+    localStorage.setItem("textinput7", text7.textContent)
+}
+
+button7.addEventListener("click", saveToLocalStorage7);
+
+clearButton7.addEventListener("click", function(){
+    text7.textContent = "";
+    localStorage.setItem("textinput7", text7.textContent);
+});
+
+//setting local storage for 8th row of table
+
+if(storageInput8){
+    text8.textContent = storedInput8;
+}
+
+storageInput8.addEventListener("input", function(letter){
+    text8.textContent = letter.target.value;
+});
+
+let saveToLocalStorage8 = function(){
+    localStorage.setItem("textinput8", text8.textContent)
+}
+
+button8.addEventListener("click", saveToLocalStorage8);
+
+clearButton8.addEventListener("click", function(){
+    text8.textContent = "";
+    localStorage.setItem("textinput8", text8.textContent);
+});
