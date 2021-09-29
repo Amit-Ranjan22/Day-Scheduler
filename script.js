@@ -38,3 +38,12 @@ let clearButton5 = document.querySelector(".clrbtn5");
 let clearButton6 = document.querySelector(".clrbtn6");
 let clearButton7 = document.querySelector(".clrbtn7");
 let clearButton8 = document.querySelector(".clrbtn8");
+
+let storedInput1 = localStorage.getItem("textinput1");
+let storedInput2 = localStorage.getItem("textinput2");
+let storedInput3 = localStorage.getItem("textinput3");
+let storedInput4 = localStorage.getItem("textinput4");
+let storedInput5 = localStorage.getItem("textinput5");
+let storedInput6 = localStorage.getItem("textinput6");
+let storedInput7 = localStorage.getItem("textinput7");
+let storedInput8 = localStorage.getItem("textinput8");
