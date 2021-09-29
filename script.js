@@ -47,3 +47,43 @@ let storedInput5 = localStorage.getItem("textinput5");
 let storedInput6 = localStorage.getItem("textinput6");
 let storedInput7 = localStorage.getItem("textinput7");
 let storedInput8 = localStorage.getItem("textinput8");
+
+//setting local storage for 1st row of table
+if(storageInput1){
+     text1.textContent = storedInput1;
+}
+
+storageInput1.addEventListener("input", function(letter){
+    text1.textContent = letter.target.value;
+});
+
+let saveToLocalStorage1 = function(){
+    localStorage.setItem("textinput1", text1.textContent)
+}
+
+button1.addEventListener("click", saveToLocalStorage1);
+
+clearButton1.addEventListener("click", function(){
+    text1.textContent = "";
+    localStorage.setItem("textinput1", text1.textContent);
+});
+
+//setting local storage for 2nd row of table
+if(storageInput2){
+     text2.textContent = storedInput2;
+}
+
+storageInput2.addEventListener("input", function(letter){
+    text2.textContent = letter.target.value;
+});
+
+let saveToLocalStorage2 = function(){
+    localStorage.setItem("textinput2", text2.textContent)
+}
+
+button2.addEventListener("click", saveToLocalStorage2);
+
+clearButton2.addEventListener("click", function(){
+    text2.textContent = "";
+    localStorage.setItem("textinput2", text2.textContent);
+});
